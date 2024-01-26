@@ -6,9 +6,9 @@
 export default {
   "title": "My Site",
   "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/dog_icon2.svg",
   "url": "https://your-docusaurus-site.example.com",
-  "baseUrl": "/",
+  "baseUrl": "/code-nook/",
   "organizationName": "facebook",
   "projectName": "docusaurus",
   "onBrokenLinks": "throw",
@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/gy-cho/code-nook/blob/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/gy-cho/code-nook/blob/main/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -41,6 +41,7 @@ export default {
   ],
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
+    "hideOnScroll": true,
     "navbar": {
       "title": "보리's 코드 공방",
       "logo": {
@@ -49,67 +50,37 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/portfolio",
+          "label": "포트폴리오",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
+          "type": "html",
+          "position": "left",
+          "className": "hr",
+          "value": "<div/>"
+        },
+        {
+          "to": "/develop-nook",
+          "label": "개발 공방",
+          "position": "left"
+        },
+        {
+          "to": "/diary",
+          "label": "일기장",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/gy-cho",
+          "position": "right",
+          "className": "header-github-link"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
-        }
-      ],
+      "links": [],
       "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
     },
     "prism": {

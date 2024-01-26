@@ -3,175 +3,175 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '078'),
+    path: '/code-nook/__docusaurus/debug',
+    component: ComponentCreator('/code-nook/__docusaurus/debug', 'b65'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '646'),
+    path: '/code-nook/__docusaurus/debug/config',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/config', 'db1'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '640'),
+    path: '/code-nook/__docusaurus/debug/content',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/content', 'e39'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '495'),
+    path: '/code-nook/__docusaurus/debug/globalData',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/globalData', '8d6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'bde'),
+    path: '/code-nook/__docusaurus/debug/metadata',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/metadata', 'ea4'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '258'),
+    path: '/code-nook/__docusaurus/debug/registry',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/registry', 'b35'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'b27'),
+    path: '/code-nook/__docusaurus/debug/routes',
+    component: ComponentCreator('/code-nook/__docusaurus/debug/routes', '724'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '714'),
+    path: '/code-nook/blog',
+    component: ComponentCreator('/code-nook/blog', 'c1f'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '0e0'),
+    path: '/code-nook/blog/archive',
+    component: ComponentCreator('/code-nook/blog/archive', '3ee'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '9c3'),
+    path: '/code-nook/blog/first-blog-post',
+    component: ComponentCreator('/code-nook/blog/first-blog-post', 'd79'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '19e'),
+    path: '/code-nook/blog/long-blog-post',
+    component: ComponentCreator('/code-nook/blog/long-blog-post', '897'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'c50'),
+    path: '/code-nook/blog/mdx-blog-post',
+    component: ComponentCreator('/code-nook/blog/mdx-blog-post', '919'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '5bc'),
+    path: '/code-nook/blog/tags',
+    component: ComponentCreator('/code-nook/blog/tags', 'd92'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'bb5'),
+    path: '/code-nook/blog/tags/docusaurus',
+    component: ComponentCreator('/code-nook/blog/tags/docusaurus', 'f5c'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '8c1'),
+    path: '/code-nook/blog/tags/facebook',
+    component: ComponentCreator('/code-nook/blog/tags/facebook', 'db8'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '11b'),
+    path: '/code-nook/blog/tags/hello',
+    component: ComponentCreator('/code-nook/blog/tags/hello', 'cdd'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', 'eb4'),
+    path: '/code-nook/blog/tags/hola',
+    component: ComponentCreator('/code-nook/blog/tags/hola', 'd60'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '461'),
+    path: '/code-nook/blog/welcome',
+    component: ComponentCreator('/code-nook/blog/welcome', 'a1b'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'e9e'),
+    path: '/code-nook/markdown-page',
+    component: ComponentCreator('/code-nook/markdown-page', '616'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '1a1'),
+    path: '/code-nook/docs',
+    component: ComponentCreator('/code-nook/docs', 'e8f'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '40b'),
+        path: '/code-nook/docs',
+        component: ComponentCreator('/code-nook/docs', 'd80'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '292'),
+            path: '/code-nook/docs',
+            component: ComponentCreator('/code-nook/docs', '2f5'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+                path: '/code-nook/docs/category/tutorial---basics',
+                component: ComponentCreator('/code-nook/docs/category/tutorial---basics', 'cc8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+                path: '/code-nook/docs/category/tutorial---extras',
+                component: ComponentCreator('/code-nook/docs/category/tutorial---extras', 'd1e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', 'aed'),
+                path: '/code-nook/docs/intro',
+                component: ComponentCreator('/code-nook/docs/intro', '282'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
+                path: '/code-nook/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/congratulations', '0e7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
+                path: '/code-nook/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/create-a-blog-post', 'c6c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
+                path: '/code-nook/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/create-a-document', 'ca1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
+                path: '/code-nook/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/create-a-page', '982'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
+                path: '/code-nook/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/deploy-your-site', '55d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
+                path: '/code-nook/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/code-nook/docs/tutorial-basics/markdown-features', '0d6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
+                path: '/code-nook/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/code-nook/docs/tutorial-extras/manage-docs-versions', 'd4c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+                path: '/code-nook/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/code-nook/docs/tutorial-extras/translate-your-site', 'a10'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -182,8 +182,8 @@ export default [
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '31c'),
+    path: '/code-nook/',
+    component: ComponentCreator('/code-nook/', '460'),
     exact: true
   },
   {

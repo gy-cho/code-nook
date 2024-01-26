@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Portfolio',
+    Svg: require('@site/static/img/illustration1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        회사에서 수행했던 프로젝트부터 개인 프로젝트까지. 경력과 기술스택을 정리하는 공간입니다.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Develop Nook',
+    Svg: require('@site/static/img/illustration7.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        여러가지를 만들어 올리는 체험 페이지. 
+        개인 프로젝트와 공부한 코드를 모아두는 작은 개발 모음 공간입니다.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Diary',
+    Svg: require('@site/static/img/illustration9.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        아무거나 쓰는 일기장. 
+        공부하며 정리한 노트, 일상 일기 등 기록하는 공간입니다.
       </>
     ),
   },
