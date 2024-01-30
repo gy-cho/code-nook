@@ -73,27 +73,16 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'docSidebar',
-          //   sidebarId: 'tutorialSidebar',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/portfolio', label: '포트폴리오', position: 'left'},
-          {
-            type: 'html',
-            position: 'left',
-            className: 'hr',
-            value: '<div/>',
-          },
+          // {type: 'docSidebar', sidebarId: 'tutorialSidebar',position: 'left',label: 'Tutorial'},
+          {type: 'docSidebar', sidebarId: 'tutorialSidebar',position: 'left',label: '공부노트'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/develop-nook', label: '개발 공방', position: 'left'},
           {to: '/diary', label: '일기장', position: 'left'},
-          {
-            href: 'https://github.com/gy-cho',
-            position: 'right',
-            className: "header-github-link",
-          },
+          {type: 'html',className: 'hr', value: '<div/>'},
+
+          {type: 'docsVersionDropdown', position: 'right'},
+          {to: '/portfolio', position: 'right', className: "header-portfolio"},
+          {href: 'https://github.com/gy-cho', position: 'right', className: "header-github-link"},
         ],
       },
       footer: {

@@ -1,0 +1,8 @@
+{
+  "label": "Docusaurus 가이드",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Docusaurus 프로젝트 생성과 빌드, 사용법"
+  }
+}

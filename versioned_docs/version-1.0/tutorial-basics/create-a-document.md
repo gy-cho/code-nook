@@ -46,7 +46,7 @@ export default {
   tutorialSidebar: [
     'intro',
     // highlight-next-line
-    'hello',
+    'hello',f
     {
       type: 'category',
       label: 'Tutorial',
