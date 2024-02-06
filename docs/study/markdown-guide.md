@@ -36,7 +36,10 @@ https://www.naver.com
 [네이버](https://www.naver.com)
 
 다른 페이지로 이동
-[MarkDown 가이드](./markdown-guide#글자에-링크-걸기)
+[도큐사우르스 시작하기](./docusaurus/docusaurus-start)
+
+현재 페이지에서 링크 걸기
+[MarkDown 가이드](#글자에-링크-걸기)
 ```
 
 ## 목록 표시

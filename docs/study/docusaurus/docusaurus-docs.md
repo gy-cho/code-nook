@@ -1,5 +1,4 @@
 ---
-slug: 3
 sidebar_position: 3
 ---
 
@@ -27,7 +26,7 @@ sidebars.js
 
 **md** 파일은 `.md` 또는 `.mdx` 확장자를 가진 파일을 만들어서 markdown 언어로 문서를 작성하기만 하면 됩니다.
 
-markdown 문서 작성법은 [MarkDown 가이드](./markdown-guide)를 참고하세요
+markdown 문서 작성법은 [MarkDown 가이드](../markdown-guide)를 참고하세요
 
 **js** 파일은 `.js`나 `.jsx` 같은 확장자를 가진 파일로 페이지를 만들 수 있습니다.
 
@@ -106,7 +105,7 @@ menu 폴더는 꼭 나누지 않아도 괜찮지만, 폴더를 나누어 관리�
 /docs/menu2/page3
 ```
 
-다음엔 상단에 `Menu1`, `Menu2` 메뉴를 추가합니다. 메뉴 추가하는 방법은 [상단 메뉴 추가하기](./docusaurus-docs.md#상단-메뉴-추가하기) 를 참고하세요.
+다음엔 상단에 `Menu1`, `Menu2` 메뉴를 추가합니다. 메뉴 추가하는 방법은 [상단 메뉴 추가하기](#상단-메뉴-추가하기) 를 참고하세요.
 이동 경로(to)는 메뉴 클릭 시 이동할 첫 페이지로 입력합니다. 
 ```jsx title="/docusaurus.config.js"
 items: [
