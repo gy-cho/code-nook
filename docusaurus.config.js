@@ -74,12 +74,14 @@ const config = {
         },
         items: [
           // {type: 'docSidebar', sidebarId: 'tutorialSidebar',position: 'left',label: 'Tutorial'},
-          {type: 'docSidebar', sidebarId: 'tutorialSidebar',position: 'left',label: '공부노트'},
+          // {type: 'docSidebar', sidebarId: 'tutorialSidebar',position: 'left',label: 'Docs'},
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/study/markdown-guide', label: '공부노트', position: 'left', 
+          activeBasePath: `extend`,},
           // {to: '/develop-nook', label: '개발 공방', position: 'left'},
-          {type: 'html',className: 'hr', value: '<div/>'},
+          // {type: 'html',className: 'hr', value: '<div/>'},
 
-          {type: 'docsVersionDropdown', position: 'right'},
+          // {type: 'docsVersionDropdown', position: 'right'},
           // {to: '/portfolio', position: 'right', className: "header-portfolio"},
           {href: 'https://github.com/gy-cho', position: 'right', className: "header-github-link"},
         ],
